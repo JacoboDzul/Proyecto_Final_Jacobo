@@ -39,7 +39,7 @@ namespace Proyecto_Final_23AM.Vista
             if (txtNombre.Text == "" || txtPassword.Text == "" || txtUserName.Text
                 == "")
             {
-                MessageBox.Show("Datos vacíos no puedes agregar un usuario");
+                MessageBox.Show("Datos vacíos no puedes agregar nada");
             }
             else
             {
