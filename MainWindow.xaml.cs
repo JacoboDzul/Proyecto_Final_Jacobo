@@ -1,4 +1,6 @@
-﻿using Proyecto_Final_23AM.Vista;
+﻿using Proyecto_Final_23AM.Context;
+using Proyecto_Final_23AM.Entities;
+using Proyecto_Final_23AM.Vista;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,8 +30,33 @@ namespace Proyecto_Final_23AM
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            Sistema sistema = new Sistema();
-            sistema.Show();
+            string username = txtUser.Text;
+            string password = txtPassword.Password;
+
+            // Validar el usuario y la contraseña
+            if (ValidateLogin(username, password))
+            {
+                
+                MessageBox.Show("Inicio de sesión exitoso. Bienvenido " + username);
+                Sistema sistema = new Sistema();
+                sistema.Show();
+                Close();
+            }
+            else
+            {
+                
+                MessageBox.Show("Usuario o contraseña incorrectos. Por favor, intenta nuevamente.");
+            }   
+        }
+        private bool ValidateLogin(string username, string password)
+        {
+            using (var context = new ApplicationDbContext())
+            {
+                
+                Usuario user = context.Usuarios.FirstOrDefault(u => u.Username == username && u.Password == password);
+
+                return (user != null); 
+            }
         }
     }
 }

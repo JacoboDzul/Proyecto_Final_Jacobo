@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Upqroo\\source\\repos\\Proyecto_Final_23AM\\Proyecto_Final_23AM.csproj": {}
+    "C:\\Users\\jaico\\source\\repos\\Proyecto_Final_Jacobo\\Proyecto_Final_23AM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Upqroo\\source\\repos\\Proyecto_Final_23AM\\Proyecto_Final_23AM.csproj": {
+    "C:\\Users\\jaico\\source\\repos\\Proyecto_Final_Jacobo\\Proyecto_Final_23AM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Upqroo\\source\\repos\\Proyecto_Final_23AM\\Proyecto_Final_23AM.csproj",
+        "projectUniqueName": "C:\\Users\\jaico\\source\\repos\\Proyecto_Final_Jacobo\\Proyecto_Final_23AM.csproj",
         "projectName": "Proyecto_Final_23AM",
-        "projectPath": "C:\\Users\\Upqroo\\source\\repos\\Proyecto_Final_23AM\\Proyecto_Final_23AM.csproj",
-        "packagesPath": "C:\\Users\\Upqroo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Upqroo\\source\\repos\\Proyecto_Final_23AM\\obj\\",
+        "projectPath": "C:\\Users\\jaico\\source\\repos\\Proyecto_Final_Jacobo\\Proyecto_Final_23AM.csproj",
+        "packagesPath": "C:\\Users\\jaico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jaico\\source\\repos\\Proyecto_Final_Jacobo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Upqroo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jaico\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows7.0"
+          "net5.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -48,7 +48,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "MySql.EntityFrameworkCore": {
               "target": "Package",
@@ -66,12 +66,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -80,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
