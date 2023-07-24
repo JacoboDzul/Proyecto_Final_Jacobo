@@ -116,7 +116,7 @@ namespace Proyecto_Final_23AM.Vista {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Proyecto_Final_23AM;V1.0.0.0;component/vista/sistema.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Proyecto_Final_23AM;component/vista/sistema.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Vista\Sistema.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

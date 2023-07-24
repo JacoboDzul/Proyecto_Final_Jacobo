@@ -8,7 +8,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\actualizar.png" />
     <None Remove="Images\erik-mclean-BXiLSwwvqrY-unsplash.jpg" />
+    <None Remove="Images\repartidor.png" />
+    <None Remove="Vista\515958.jpg" />
+    <None Remove="Vista\actualizar.png" />
+    <None Remove="Vista\alimentos-saludables.png" />
+    <None Remove="Vista\basura.png" />
+    <None Remove="Vista\dieta.png" />
+    <None Remove="Vista\diskette.png" />
+    <None Remove="Vista\editar.png" />
+    <None Remove="Vista\informe-seo.png" />
+    <None Remove="Vista\inventario.png" />
+    <None Remove="Vista\LogoRestaurante.png" />
+    <None Remove="Vista\lupa.png" />
+    <None Remove="Vista\mensajero.png" />
+    <None Remove="Vista\minimizar.png" />
+    <None Remove="Vista\multiplicar.png" />
+    <None Remove="Vista\producto.png" />
+    <None Remove="Vista\repartidor.png" />
+    <None Remove="Vista\usuario %281%29.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,12 +37,34 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.102.0" />
+    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="MySql.EntityFrameworkCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\actualizar.png" />
+    <Resource Include="Images\repartidor.png" />
+    <Resource Include="Vista\515958.jpg" />
+    <Resource Include="Images\alimentos-saludables.png" />
+    <Resource Include="Images\dieta.png" />
+    <Resource Include="Images\editar.png" />
+    <Resource Include="Images\informe-seo.png" />
+    <Resource Include="Images\LogoRestaurante.png" />
+    <Resource Include="Images\lupa.png" />
+    <Resource Include="Images\minimizar.png" />
+    <Resource Include="Images\multiplicar.png" />
+    <Resource Include="Images\usuario %281%29.png" />
+    <Resource Include="Vista\basura.png" />
+    <Resource Include="Vista\diskette.png" />
+    <Resource Include="Vista\inventario.png" />
+    <Resource Include="Vista\mensajero.png" />
+    <Resource Include="Vista\producto.png" />
   </ItemGroup>
 
 </Project>

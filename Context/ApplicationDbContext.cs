@@ -15,7 +15,8 @@ namespace Proyecto_Final_23AM.Context
         {
             options.UseMySQL("server=localhost; database=ProyectoDb23am; user=root; password=");
         }
-        public DbSet<Usuario> Usuarios {get; set;}
+        public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Rol> Roles { get; set; }
+        public DbSet<inventario> Inventarios { get; set;}
     }
 }

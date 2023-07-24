@@ -60,6 +60,28 @@ namespace Proyecto_Final_23AM.Migrations
                     b.ToTable("Usuarios");
                 });
 
+            modelBuilder.Entity("Proyecto_Final_23AM.Entities.inventario", b =>
+                {
+                    b.Property<int>("PkAlimento")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Proveedor")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("PkAlimento");
+
+                    b.ToTable("Inventarios");
+                });
+
             modelBuilder.Entity("Proyecto_Final_23AM.Entities.Usuario", b =>
                 {
                     b.HasOne("Proyecto_Final_23AM.Entities.Rol", "Roles")

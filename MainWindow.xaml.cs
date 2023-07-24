@@ -58,5 +58,11 @@ namespace Proyecto_Final_23AM
                 return (user != null); 
             }
         }
+
+        private void BtnAbrir_Click(object sender, RoutedEventArgs e)
+        {
+            Inventario inven = new Inventario();
+            inven.Show();
+        }
     }
 }

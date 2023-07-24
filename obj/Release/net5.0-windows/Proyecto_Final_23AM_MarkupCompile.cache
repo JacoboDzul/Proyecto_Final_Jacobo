@@ -10,11 +10,11 @@ none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
 C:\Users\jaico\source\repos\Proyecto_Final_Jacobo\App.xaml
-236883692
+6259652967
 1-1784182437
-11-964221272
-216403486814
-MainWindow.xaml;Vista\Sistema.xaml;
+17106798403
+2321176559434
+MainWindow.xaml;Vista\Eliminar.xaml;Vista\Inventario.xaml;Vista\Modificar.xaml;Vista\Registro.xaml;Vista\Sistema.xaml;
 
-False
+True
 
